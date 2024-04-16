@@ -109,7 +109,7 @@ if uploaded_image is not None:
     last_frame = frames[-1]
 
     # Create a new GIF with the last frame repeated
-    repeated_frames = [last_frame.copy() for _ in range(100)]
+    repeated_frames = [last_frame.copy() for _ in range(200)]
 
     # Save the new GIF
     frames.extend(repeated_frames)
